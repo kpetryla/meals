@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/meals#"
+     xml:base="http://www.semanticweb.org/meals"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:meals="http://www.semanticweb.org/meals#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/meals"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/meals#składa_się -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/meals#składa_się">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/meals#Posiłek"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/meals#Produkt"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Bazylia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Bazylia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Przyprawa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Cebula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Cebula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Warzywo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Czosnek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Czosnek">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Warzywo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Jajko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Jajko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Nabiał"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Kurczak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Kurczak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Mięso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Marchew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Marchew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Warzywo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Mięso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Mięso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Produkt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Mąka -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Mąka">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Produkt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Mąka_pszenna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Mąka_pszenna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Mąka"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Nabiał -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Nabiał">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Produkt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ogórek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Ogórek">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Warzywo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Oregano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Oregano">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Przyprawa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Papryka -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Papryka">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Warzywo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pepperoni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Pepperoni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Mięso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pieprz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Pieprz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Przyprawa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pomidor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Pomidor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Warzywo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Posiłek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Posiłek"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Produkt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Produkt"/>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Przyprawa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Przyprawa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Produkt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ser_biały -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Ser_biały">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Nabiał"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ser_cheddar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Ser_cheddar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Nabiał"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ser_mozzarella -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Ser_mozzarella">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Nabiał"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Soja -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Soja">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Warzywo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Szynka_wieprzowa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Szynka_wieprzowa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Mięso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Sól -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Sól">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Przyprawa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Warzywo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Warzywo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Produkt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Wołowina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Wołowina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Mięso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ziemniak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Ziemniak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Warzywo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Śmietana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/meals#Śmietana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/meals#Nabiał"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/meals#American_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#American_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Posiłek"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Mąka_pszenna_American_Pizza"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Oreganno_American_Pizza"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Pepperoni_American_Pizza"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Pieprz_American_Pizza"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Pomidor_American_Pizza"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Ser_mozzarella_American_Pizza"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Sól_American_Pizza"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Jajko_Pizza_Stonebaked_Proscuitto_-_Trattoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Jajko_Pizza_Stonebaked_Proscuitto_-_Trattoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Jajko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Marchew_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Marchew_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Marchew"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Posiłek"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Marchew_Mini_Ravioli_-_Chef_Boyardee"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Mąka_pszenna_Mini_Ravioli_-_Chef_Boyardee"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Pieprz_Mini_Ravioli_-_Chef_Boyardee"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Pomidor_Mini_Ravioli_-_Chef_Boyardee"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Ser_cheddar_Mini_Ravioli_-_Chef_Boyardee"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Soja_Mini_Ravioli_-_Chef_Boyardee"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Sól_Mini_Ravioli_-_Chef_Boyardee"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Wołowina_Mini_Ravioli_-_Chef_Boyardee"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Śmietana_Mini_Ravioli_-_Chef_Boyardee"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Mąka_pszenna_American_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Mąka_pszenna_American_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Mąka_pszenna"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Mąka_pszenna_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Mąka_pszenna_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Mąka_pszenna"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Mąka_pszenna_Pizza_Stonebaked_Proscuitto_-_Trattoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Mąka_pszenna_Pizza_Stonebaked_Proscuitto_-_Trattoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Mąka_pszenna"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Oreganno_American_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Oreganno_American_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Oregano"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pepperoni_American_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pepperoni_American_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Pepperoni"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pieprz_American_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pieprz_American_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Pieprz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pieprz_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pieprz_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Pieprz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pizza_Stonebaked_Proscuitto_-_Trattoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pizza_Stonebaked_Proscuitto_-_Trattoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Posiłek"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Jajko_Pizza_Stonebaked_Proscuitto_-_Trattoria"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Mąka_pszenna_Pizza_Stonebaked_Proscuitto_-_Trattoria"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Pomidor_Pizza_Stonebaked_Proscuitto_-_Trattoria"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Ser_mozzarella_Pizza_Stonebaked_Proscuitto_-_Trattoria"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Szynka_wieprzowa_Pizza_Stonebaked_Proscuitto_-_Trattoria"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Sól_Pizza_Stonebaked_Proscuitto_-_Trattoria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pomidor_American_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pomidor_American_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Pomidor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pomidor_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pomidor_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Pomidor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pomidor_Pizza_Stonebaked_Proscuitto_-_Trattoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pomidor_Pizza_Stonebaked_Proscuitto_-_Trattoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Pomidor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ser_cheddar_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Ser_cheddar_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Ser_cheddar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ser_mozzarella_American_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Ser_mozzarella_American_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Ser_mozzarella"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ser_mozzarella_Pizza_Stonebaked_Proscuitto_-_Trattoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Ser_mozzarella_Pizza_Stonebaked_Proscuitto_-_Trattoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Ser_mozzarella"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Soja_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Soja_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Soja"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Szynka_wieprzowa_Pizza_Stonebaked_Proscuitto_-_Trattoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Szynka_wieprzowa_Pizza_Stonebaked_Proscuitto_-_Trattoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Szynka_wieprzowa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Sól_American_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Sól_American_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Sól"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Sól_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Sól_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Sól"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Sól_Pizza_Stonebaked_Proscuitto_-_Trattoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Sól_Pizza_Stonebaked_Proscuitto_-_Trattoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Sól"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Wołowina_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Wołowina_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Wołowina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Śmietana_Mini_Ravioli_-_Chef_Boyardee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Śmietana_Mini_Ravioli_-_Chef_Boyardee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Śmietana"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Bazylia_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Bazylia_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Bazylia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Cebula_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Cebula_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Cebula"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Czosnek_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Czosnek_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Czosnek"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Jajko_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Jajko_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Jajko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Mąka_pszenna_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Mąka_pszenna_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Mąka_pszenna"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Oregano_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Oregano_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Oregano"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pieprz_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pieprz_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Pieprz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Pomidor_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Pomidor_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Pomidor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ser_cheddar_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Ser_cheddar_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Ser_cheddar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Ser_mozzarella_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Ser_mozzarella_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Ser_mozzarella"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Sól_Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Sól_Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Sól"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/meals#Tomato_&amp;_Mozzarella_Pasta_Bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/meals#Tomato_&amp;_Mozzarella_Pasta_Bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/meals#Posiłek"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Bazylia_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Cebula_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Czosnek_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Jajko_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Mąka_pszenna_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Oregano_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Pieprz_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Pomidor_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Ser_cheddar_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Ser_mozzarella_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/meals#Sól_Tomato_&amp;_Mozzarella_Pasta_Bake"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
